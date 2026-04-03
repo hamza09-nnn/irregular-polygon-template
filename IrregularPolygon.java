@@ -54,7 +54,7 @@ public class IrregularPolygon {
                 Point2D.Double p = myPolygon.get(i);
                 pen.drawTo(p.x, p.y);
             }
-
+//
             pen.drawTo(first.x, first.y);
 
         } catch (java.awt.HeadlessException e) {
